@@ -33,4 +33,3 @@ echo "Backup created successfully: $BACKUP_FILE"
 find "$BACKUP_DIR" -type f -name "backup_*.tar.gz" -mtime +14 -delete
 
 echo "Old backups older than 14 days have been removed."
-```
